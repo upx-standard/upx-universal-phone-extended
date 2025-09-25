@@ -1,0 +1,77 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "UPX Module Manifest (v0.1)",
+  "type": "object",
+  "required": [
+    "vendor_id",
+    "product_id",
+    "hw_rev",
+    "class",
+    "safety_class",
+    "power_budget",
+    "interfaces"
+  ],
+  "properties": {
+    "vendor_id": {
+      "type": "string"
+    },
+    "product_id": {
+      "type": "string"
+    },
+    "hw_rev": {
+      "type": "string"
+    },
+    "fw_rev": {
+      "type": "string"
+    },
+    "class": {
+      "type": "string",
+      "enum": [
+        "CM",
+        "RFM",
+        "DM",
+        "CAM",
+        "EPM",
+        "AUX"
+      ]
+    },
+    "safety_class": {
+      "type": "string",
+      "enum": [
+        "Basic",
+        "Elevated",
+        "Hazardous"
+      ]
+    },
+    "power_budget": {
+      "type": "object",
+      "required": [
+        "avg_w",
+        "peak_w"
+      ],
+      "properties": {
+        "avg_w": {
+          "type": "number"
+        },
+        "peak_w": {
+          "type": "number"
+        }
+      }
+    },
+    "interfaces": {
+      "type": "object"
+    },
+    "driver_hint": {
+      "type": "string"
+    },
+    "caps": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "signature": {
+      "type": "string"
+    }
+  }
+}

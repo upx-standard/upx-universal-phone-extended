@@ -1,0 +1,26 @@
+{
+  "vendor_id": "com.example",
+  "product_id": "upx-laser-001",
+  "hw_rev": "A0",
+  "fw_rev": "0.1.0",
+  "class": "AUX",
+  "safety_class": "Hazardous",
+  "power_budget": {
+    "avg_w": 30,
+    "peak_w": 60
+  },
+  "interfaces": {
+    "xp": {
+      "enable": "GPIO5",
+      "fault": "GPIO6",
+      "interlock": "GPIO7",
+      "temp": "I2C1@0x48"
+    },
+    "pwm": "PWM0"
+  },
+  "driver_hint": "upx-laser",
+  "caps": [
+    "modulation",
+    "temp-sense"
+  ]
+}

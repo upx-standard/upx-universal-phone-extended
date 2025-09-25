@@ -1,0 +1,16 @@
+Pin,Signal,Notes
+1,DSI_D0_P,Display lane 0+
+2,DSI_D0_N,Display lane 0-
+3,DSI_CLK_P,Clock+
+4,DSI_CLK_N,Clock-
+5,DSI_D1_P,Display lane 1+
+6,DSI_D1_N,Display lane 1-
+7,DSI_D2_P,Display lane 2+
+8,DSI_D2_N,Display lane 2-
+9,DSI_D3_P,Display lane 3+
+10,DSI_D3_N,Display lane 3-
+11,I2C_SCL,Touch/Backlight
+12,I2C_SDA,Touch/Backlight
+13,RESET#,Panel reset
+14,VDD_IO,Panel IO voltage
+15,GND,Ground

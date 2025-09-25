@@ -1,0 +1,21 @@
+{
+  "vendor_id": "org.community",
+  "product_id": "upx-cam-ov64a",
+  "hw_rev": "B1",
+  "class": "CAM",
+  "safety_class": "Basic",
+  "power_budget": {
+    "avg_w": 1.2,
+    "peak_w": 2.8
+  },
+  "interfaces": {
+    "csi": {
+      "lanes": 4
+    },
+    "i2c": "I2C1@0x36"
+  },
+  "caps": [
+    "1080p120",
+    "stills-64mp"
+  ]
+}
