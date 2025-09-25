@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="640" viewBox="0 0 1000 640">
+  <rect x="0" y="0" width="1000" height="640" fill="white"/>
+  
+    <rect x="380" y="240" width="240" height="160" rx="12" ry="12" fill="none" stroke="#111" stroke-width="2"/>
+    <text x="500.0" y="320.0" text-anchor="middle" dominant-baseline="middle" font-family="Inter,Arial,Helvetica,sans-serif" font-size="16">Backplane
++ UPX‑Edge</text>
+    
+    <rect x="100" y="240" width="180" height="120" rx="10" ry="10" fill="none" stroke="#111" stroke-width="2"/>
+    <text x="190.0" y="300.0" text-anchor="middle" dominant-baseline="middle" font-family="Inter,Arial,Helvetica,sans-serif" font-size="16">UPX‑CM
+Compute Module</text>
+    
+    <rect x="720" y="140" width="200" height="110" rx="10" ry="10" fill="none" stroke="#111" stroke-width="2"/>
+    <text x="820.0" y="195.0" text-anchor="middle" dominant-baseline="middle" font-family="Inter,Arial,Helvetica,sans-serif" font-size="16">UPX‑DM
+Display Module</text>
+    
+    <rect x="720" y="300" width="200" height="110" rx="10" ry="10" fill="none" stroke="#111" stroke-width="2"/>
+    <text x="820.0" y="355.0" text-anchor="middle" dominant-baseline="middle" font-family="Inter,Arial,Helvetica,sans-serif" font-size="16">UPX‑CAM
+Camera Module</text>
+    
+    <rect x="100" y="110" width="200" height="100" rx="10" ry="10" fill="none" stroke="#111" stroke-width="2"/>
+    <text x="200.0" y="160.0" text-anchor="middle" dominant-baseline="middle" font-family="Inter,Arial,Helvetica,sans-serif" font-size="16">UPX‑RFM
+Radio/Modem</text>
+    
+    <rect x="100" y="420" width="200" height="110" rx="10" ry="10" fill="none" stroke="#111" stroke-width="2"/>
+    <text x="200.0" y="475.0" text-anchor="middle" dominant-baseline="middle" font-family="Inter,Arial,Helvetica,sans-serif" font-size="16">UPX‑EPM
+Energy/Power</text>
+    
+    <rect x="420" y="440" width="180" height="110" rx="10" ry="10" fill="none" stroke="#111" stroke-width="2"/>
+    <text x="510.0" y="495.0" text-anchor="middle" dominant-baseline="middle" font-family="Inter,Arial,Helvetica,sans-serif" font-size="16">UPX‑AUX / XP
+Expansion</text>
+    
+<rect x="430" y="80" width="140" height="20" rx="6" ry="6" fill="none" stroke="#111" stroke-width="2"/>
+<text x="500" y="94" text-anchor="middle" font-family="Inter,Arial" font-size="12">Accessory Pogo Rail</text>
+
+    <line x1="280" y1="300" x2="380" y2="320" stroke="#111" stroke-width="2"/>
+    <polygon points="380,320 362.7417801078398,324.70678724331646 365.87963827005075,309.0174964322617" fill="#111"/>
+    <text x="330.0" y="304.0" text-anchor="middle" font-family="Inter,Arial" font-size="12">UPX‑Edge</text>
+    
+    <line x1="620" y1="290" x2="720" y2="190" stroke="#111" stroke-width="2"/>
+    <polygon points="720,190 714.3431457505077,206.97056274847714 703.0294372515228,195.6568542494924" fill="#111"/>
+    <text x="670.0" y="234.0" text-anchor="middle" font-family="Inter,Arial" font-size="12">MIPI‑DSI + I²C</text>
+    
+    <line x1="620" y1="310" x2="720" y2="355" stroke="#111" stroke-width="2"/>
+    <polygon points="720,355 702.1263384985679,355.7295372041401 708.6921733358287,341.1387931213384" fill="#111"/>
+    <text x="670.0" y="326.5" text-anchor="middle" font-family="Inter,Arial" font-size="12">MIPI‑CSI‑2</text>
+    
+    <line x1="300" y1="160" x2="380" y2="260" stroke="#111" stroke-width="2"/>
+    <polygon points="380,260 363.75792876358497,252.50365942934692 376.2518297146734,242.50853866847612" fill="#111"/>
+    <text x="340.0" y="204.0" text-anchor="middle" font-family="Inter,Arial" font-size="12">PCIe/USB + I²C</text>
+    
+    <line x1="300" y1="475" x2="380" y2="340" stroke="#111" stroke-width="2"/>
+    <polygon points="380,340 378.7254940242457,357.8430836605607 364.9608294860989,349.6862454157329" fill="#111"/>
+    <text x="340.0" y="401.5" text-anchor="middle" font-family="Inter,Arial" font-size="12">SYS_BAT + I²C</text>
+    
+    <line x1="510" y1="440" x2="500" y2="400" stroke="#111" stroke-width="2"/>
+    <polygon points="500,400 511.64171000174395,413.58199500203466 496.1194299994187,417.462565002616" fill="#111"/>
+    <text x="505.0" y="414.0" text-anchor="middle" font-family="Inter,Arial" font-size="12">UPX‑XP</text>
+    
+    <line x1="500" y1="100" x2="500" y2="240" stroke="#111" stroke-width="2"/>
+    <polygon points="500,240 492.0,224.0 508.0,224.0" fill="#111"/>
+    <text x="500.0" y="164.0" text-anchor="middle" font-family="Inter,Arial" font-size="12">AUX</text>
+    
+</svg>

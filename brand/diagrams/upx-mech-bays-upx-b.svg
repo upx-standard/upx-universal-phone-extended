@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="820" height="500" viewBox="0 0 820 500">
+  <rect x="0" y="0" width="820" height="500" fill="white"/>
+  
+<rect x="160" y="60" width="500" height="300" rx="26" ry="26" fill="none" stroke="#111" stroke-width="3"/>
+<text x="410" y="44" text-anchor="middle" font-family="Inter,Arial" font-size="16">Device Envelope — UPX‑B 162×78×9 mm (illustrative)</text>
+
+<!-- bays -->
+<rect x="420" y="90" width="120" height="90" rx="8" ry="8" fill="none" stroke="#111" stroke-width="2"/>
+<text x="480" y="140" text-anchor="middle" font-family="Inter,Arial" font-size="12">Compute Bay 40×30</text>
+
+<rect x="220" y="100" width="160" height="60" rx="8" ry="8" fill="none" stroke="#111" stroke-width="2"/>
+<text x="300" y="130" text-anchor="middle" font-family="Inter,Arial" font-size="12">Camera Bays</text>
+
+<rect x="200" y="200" width="440" height="130" rx="10" ry="10" fill="none" stroke="#111" stroke-width="2"/>
+<text x="420" y="270" text-anchor="middle" font-family="Inter,Arial" font-size="12">Battery Bay — EPM Pogo Zone</text>
+
+<rect x="320" y="360" width="180" height="14" rx="6" ry="6" fill="none" stroke="#111" stroke-width="2"/>
+<text x="410" y="388" text-anchor="middle" font-family="Inter,Arial" font-size="12">Accessory Rail</text>
+
+    <line x1="160" y1="380" x2="660" y2="380" stroke="#111" stroke-width="1.5" stroke-dasharray="4 3"/>
+    <line x1="160" y1="374" x2="160" y2="386" stroke="#111" stroke-width="1.5"/>
+    <line x1="660" y1="374" x2="660" y2="386" stroke="#111" stroke-width="1.5"/>
+    <text x="410.0" y="372" text-anchor="middle" font-family="Inter,Arial" font-size="12">78 mm</text>
+    
+<line x1="680" y1="60" x2="680" y2="360" stroke="#111" stroke-width="1.5" stroke-dasharray="4 3"/>
+<line x1="674" y1="60" x2="686" y2="60" stroke="#111" stroke-width="1.5"/>
+<line x1="674" y1="360" x2="686" y2="360" stroke="#111" stroke-width="1.5"/>
+<text x="700" y="210" font-family="Inter,Arial" font-size="12">162 mm</text>
+
+</svg>
